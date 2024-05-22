@@ -1,0 +1,28 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px 0px
+
+}
+.menu{
+    display:flex;
+    gap:20px
+}
+.navbar-search-icon{
+    position: relative;
+
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    left:10px;
+    top:9px
+}
+.box{
+    display: flex;
+   gap:90px
+}
